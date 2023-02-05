@@ -7,14 +7,16 @@
     
     <style>
 
-      * {
+      /* * {
         border: thin red solid
-      }
+      } */
 
       body {
         padding-top: 40px;
         padding-bottom: 40px;
         background-color: #fef6e4;
+        display: flex;
+        justify-content: center;
       }
 
       .items {
@@ -22,6 +24,12 @@
         flex-direction: column;
         gap: 30px;
         max-width: 640px;
+        flex-grow: 1;
+      }
+
+      .banner {
+        display: flex;
+        justify-content: center;
       }
 
       .banner-image {
@@ -33,6 +41,13 @@
 
       .name {
         color: #001858;
+        display: flex;
+        justify-content: center;
+      }
+
+      .social-icons {
+        display: flex;
+        justify-content: space-around;
       }
 
       .social-icons a {
@@ -44,6 +59,7 @@
         background-color: #8bd3dd;
         display: flex;
         align-items: center;
+        padding: 5px;
       }
 
       .link a {
@@ -69,7 +85,7 @@
 
     <div class="items">
 
-      <div clas="banner">
+      <div class="banner">
         <img src="/thumbnails/profile-pic.jpg" alt="Mohammad Ali Karimi headshot" class="banner-image">
       </div>
 
@@ -92,7 +108,7 @@
 
       <div class="link">
         <img class="thumbnail" src="/thumbnails/arsenal.jpeg" alt="Arsenal Players">
-        <a href="https://www.espn.com/soccer/english-premier-league/story/4853237/arsenal-firmly-title-favourites-after-emphatic-win-vs-spurs" target="_blank">London is Red!</a>
+        <a href="https://www.espn.com/soccer/english-premier-league/story/4853237/arsenal-firmly-title-favourites-after-emphatic-win-vs-spurs" target="_blank">London is Red! London is Red! London is Red!</a>
       </div>
 
     </div>
